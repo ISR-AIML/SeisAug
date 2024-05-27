@@ -1,6 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from obspy import read, Trace
+from scipy import signal
 
 def add_noise(data, noise_level_db):
     noise_level_linear = 10**(noise_level_db/20)
