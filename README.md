@@ -13,3 +13,4 @@ conda env create -f environment.yml
 
 The Example mseed file provided in the Repo are from **SCEDC** 
 **_SCEDC (2013): Southern California Earthquake Data Center. Caltech. Dataset. doi:10.7909/C3WD3xH1._**
+![White_noise](https://github.com/ISR-AIML/SeismoAugment/assets/163402495/db64d62e-beed-481d-a6f7-039bd1169669)
