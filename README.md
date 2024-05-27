@@ -4,6 +4,7 @@ Data augmentation has emerged as a simple but effective solution to this problem
 
 **Installation**
 pip install -r requirements.txt
+conda env create -f environment.yml
 
 The Example mseed file provided in the Repo are from **SCEDC** 
 **_SCEDC (2013): Southern California Earthquake Data Center. Caltech. Dataset. doi:10.7909/C3WD3xH1._**
