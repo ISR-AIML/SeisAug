@@ -21,5 +21,4 @@ _Example of adding Non-periodic noise of range 15-30 Hz, change in frequency con
 ![mono_freq](https://github.com/ISR-AIML/SeismoAugment/assets/163402495/614712ff-da18-44c8-a63d-efc8746c0de5)
 _Example of adding periodic noise at 30 Hz, change in frequency content of added noise can be observed in the corresponding spectrograms._
 
-[Contact Us][email]
 [email]: isr3aiml@gmail.com
