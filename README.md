@@ -6,5 +6,4 @@ Data augmentation has emerged as a simple but effective solution to this problem
 pip install -r requirements.txt
 
 The Example mseed file provided in the Repo are from **SCEDC** 
-**_SCEDC (2013): Southern California Earthquake Data Center. Caltech. Dataset. doi:10.7909/C3WD3xH1._
-**
+**_SCEDC (2013): Southern California Earthquake Data Center. Caltech. Dataset. doi:10.7909/C3WD3xH1._**
