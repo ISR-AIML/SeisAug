@@ -3,6 +3,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from obspy import read
+from scipy import signal
 from ipywidgets import interact, fixed, RadioButtons
 
 def interactive_plot(signal_type, freq=1.0, num_steps=10, file_path=''):
