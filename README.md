@@ -11,7 +11,8 @@ git clone https://github.com/ISR-AIML/SeismoAugment.git
 ```
 !git clone https://github.com/ISR-AIML/SeismoAugment
 %cd SeismoAugment
-!pip install -r requirements.txt
+!pip install -r requirements.txt ( > After restarting the session)
+%cd SeismoAugment
 %run SeismoAugment.ipynb
 ```
 ### **Installation Via pip**
