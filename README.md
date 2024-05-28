@@ -1,15 +1,16 @@
-**SeismoAugment:** _A comprehensive Data Augmentation Python Toolkit  as a gateway to Deep Learning_
+## **SeismoAugment:** _A comprehensive Data Augmentation Python Toolkit  as a gateway to Deep Learning_
 The present toolkit is developed to address the significant challenge of limited Region and depth specific labeled data  in seismological studies, a preliminary drawback in the application of deep learning and machine learning. 
 Data augmentation has emerged as a simple but effective solution to this problem to enhance model performance. 
 
-## To clone the repository :
-  git clone https://github.com/ISR-AIML/SeismoAugment.git
-
-**Installation Via pip**
+### To clone the repository :
+```
+git clone https://github.com/ISR-AIML/SeismoAugment.git
+```
+### **Installation Via pip**
 ```
 pip install -r requirements.txt
 ```
-**Installation Via Conda**
+### **Installation Via Conda**
 ```
 conda env create -f environment.yml
 ```
