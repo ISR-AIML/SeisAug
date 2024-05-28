@@ -2,17 +2,17 @@
 The present toolkit is developed to address the significant challenge of limited Region and depth specific labeled data  in seismological studies, a preliminary drawback in the application of deep learning and machine learning. 
 Data augmentation has emerged as a simple but effective solution to this problem to enhance model performance. 
 
-### To clone the repository :
+### To clone the repository to local :
 ```
 git clone https://github.com/ISR-AIML/SeismoAugment.git
 ```
-### Run in Google Colab
+### To run in Google Colab
 **open new notebook in Colab and run each step individually in each cell**
 ```
-* !git clone https://github.com/ISR-AIML/SeismoAugment
-* %cd SeismoAugment
-* !pip install -r requirements.txt
-* %run SeismoAugment.ipynb
+!git clone https://github.com/ISR-AIML/SeismoAugment
+%cd SeismoAugment
+!pip install -r requirements.txt
+%run SeismoAugment.ipynb
 ```
 ### **Installation Via pip**
 ```
