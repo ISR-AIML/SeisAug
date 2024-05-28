@@ -1,4 +1,5 @@
-# SeismoAugment: A Comprehensive Data Augmentation Python Toolkit for Deep Learning
+# <span style="color: grey;">SeismoAugment: A Comprehensive Data Augmentation Python Toolkit for Deep Learning</span>
+
 
 The **SeismoAugment** toolkit addresses a significant challenge in seismological studies: the limited availability of region- and depth-specific labeled data. This scarcity poses a preliminary drawback when applying deep learning and machine learning techniques. To enhance model performance, we propose data augmentation as a simple yet effective solution.
 
