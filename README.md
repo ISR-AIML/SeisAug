@@ -8,7 +8,7 @@ The **SeismoAugment** toolkit addresses a significant challenge in seismological
 
 To clone the repository to your local machine, use the following command:
 
-```python
+```bash
 git clone https://github.com/ISR-AIML/SeismoAugment.git
 ```
 
@@ -27,7 +27,7 @@ git clone https://github.com/ISR-AIML/SeismoAugment.git
 
 ### Installation Via pip
 
-```python
+```bash
 pip install -r requirements.txt
 ```
 
@@ -37,13 +37,13 @@ Choose one of the following options:
 
 1. Create a Conda environment from the provided environment.yml file:
 
-```bash
+```python
 conda env create -f environment.yml
 ```
 
 2. Alternatively, install the dependencies directly from the requirements.txt file:
 
-```bash
+```python
 conda install --file requirements.txt
 ```
 
