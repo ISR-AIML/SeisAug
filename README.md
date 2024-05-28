@@ -11,8 +11,9 @@ To clone the repository to your local machine, use the following command:
 ```bash
 git clone https://github.com/ISR-AIML/SeismoAugment.git
 ```
-### To run in Google Colab
-**open new notebook in Colab and run each step individually in each cell**
+### Running in Google Colab
+- Open a new notebook in Google Colab.
+- Execute each step individually in separate cells using the following commands:
 ```
 !git clone https://github.com/ISR-AIML/SeismoAugment
 %cd SeismoAugment
@@ -25,16 +26,18 @@ git clone https://github.com/ISR-AIML/SeismoAugment.git
 pip install -r requirements.txt
 ```
 ### **Installation Via Conda**
+Choose one of the following options:
+1. Create a Conda environment from the provided environment.yml file:
 ```
 conda env create -f environment.yml
 ```
-or
+2. Alternatively, install the dependencies directly from the requirements.txt file:
 ```
 conda install --file requirements.txt
 ```
 
-The Example mseed file provided in the Repo are from **SCEDC** 
-**_SCEDC (2013): Southern California Earthquake Data Center. Caltech. Dataset. doi:10.7909/C3WD3xH1._**
+## The Example mseed file provided in the Repo are from **SCEDC** 
+## **_SCEDC (2013): Southern California Earthquake Data Center. Caltech. Dataset. doi:10.7909/C3WD3xH1._**
 
 ![White_noise](https://github.com/ISR-AIML/SeismoAugment/assets/163402495/db64d62e-beed-481d-a6f7-039bd1169669)
 _Example of adding Random Noise of levels 20%, 40%, 60%, 80% to signal._
