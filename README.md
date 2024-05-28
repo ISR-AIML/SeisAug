@@ -8,7 +8,7 @@ The **SeismoAugment** toolkit addresses a significant challenge in seismological
 
 To clone the repository to your local machine, use the following command:
 
-```bash
+```python
 git clone https://github.com/ISR-AIML/SeismoAugment.git
 ```
 
@@ -27,7 +27,7 @@ git clone https://github.com/ISR-AIML/SeismoAugment.git
 
 ### Installation Via pip
 
-```bash
+```python
 pip install -r requirements.txt
 ```
 
