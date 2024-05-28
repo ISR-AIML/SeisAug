@@ -6,6 +6,14 @@ Data augmentation has emerged as a simple but effective solution to this problem
 ```
 git clone https://github.com/ISR-AIML/SeismoAugment.git
 ```
+### Run in Google Colab
+**open new notebook in Colab and run each step individually in each cell**
+```
+1. !git clone https://github.com/ISR-AIML/SeismoAugment
+2. %cd SeismoAugment
+3. !pip install -r requirements.txt
+4. %run SeismoAugment.ipynb
+```
 ### **Installation Via pip**
 ```
 pip install -r requirements.txt
