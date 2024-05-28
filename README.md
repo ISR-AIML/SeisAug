@@ -9,10 +9,10 @@ git clone https://github.com/ISR-AIML/SeismoAugment.git
 ### Run in Google Colab
 **open new notebook in Colab and run each step individually in each cell**
 ```
-*!git clone https://github.com/ISR-AIML/SeismoAugment
-*%cd SeismoAugment
-*!pip install -r requirements.txt
-*%run SeismoAugment.ipynb
+* !git clone https://github.com/ISR-AIML/SeismoAugment
+* %cd SeismoAugment
+* !pip install -r requirements.txt
+* %run SeismoAugment.ipynb
 ```
 ### **Installation Via pip**
 ```
