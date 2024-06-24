@@ -1,6 +1,6 @@
-# SeismoAugment: A Comprehensive Data Augmentation Python Toolkit for Deep Learning
+# SeisAug: A Comprehensive Data Augmentation Python Toolkit for Deep Learning
 
-The **SeismoAugment** toolkit addresses a significant challenge in seismological studies: the limited availability of region- and depth-specific labeled data. This scarcity poses a preliminary drawback when applying deep learning and machine learning techniques. To enhance model performance, we propose data augmentation as a simple yet effective solution.
+The **SeisAug** toolkit addresses a significant challenge in seismological studies: the limited availability of region- and depth-specific labeled data. This scarcity poses a preliminary drawback when applying deep learning and machine learning techniques. To enhance model performance, we propose data augmentation as a simple yet effective solution.
 
 ## Getting Started
 
@@ -9,7 +9,7 @@ The **SeismoAugment** toolkit addresses a significant challenge in seismological
 To clone the repository to your local machine, use the following command:
 
 ```bash
-git clone https://github.com/ISR-AIML/SeismoAugment.git
+git clone https://github.com/ISR-AIML/SeisAug.git
 ```
 
 ### Running in Google Colab
@@ -18,11 +18,11 @@ git clone https://github.com/ISR-AIML/SeismoAugment.git
 2. Execute each step individually in separate cells using the following commands:
 
 ```python
-!git clone https://github.com/ISR-AIML/SeismoAugment
-%cd SeismoAugment
+!git clone https://github.com/ISR-AIML/SeisAug
+%cd SeisAug
 !pip install -r requirements.txt  # After restarting the session
-%cd SeismoAugment
-%run SeismoAugment.ipynb
+%cd SeisAug
+%run SeisAug.ipynb
 ```
 
 ### Installation Via pip
@@ -51,13 +51,13 @@ conda install --file requirements.txt
 
 **_SCEDC (2013): Southern California Earthquake Data Center. Caltech. Dataset. doi:10.7909/C3WD3xH1._**
 
-![White_noise](https://github.com/ISR-AIML/SeismoAugment/assets/163402495/db64d62e-beed-481d-a6f7-039bd1169669)
+![White_noise](https://github.com/ISR-AIML/SeisAug/assets/163402495/db64d62e-beed-481d-a6f7-039bd1169669)
 _Example of adding random noise at levels 20%, 40%, 60%, and 80% to the signal._
 
-![bandpass_noise](https://github.com/ISR-AIML/SeismoAugment/assets/163402495/98f3a745-1ed7-4f2d-83d9-afff27dba0f6)
+![bandpass_noise](https://github.com/ISR-AIML/SeisAug/assets/163402495/98f3a745-1ed7-4f2d-83d9-afff27dba0f6)
 _Example of adding non-periodic noise in the range of 15-30 Hz. Changes in frequency content of the added noise can be observed in the corresponding signal._
 
-![mono_freq](https://github.com/ISR-AIML/SeismoAugment/assets/163402495/614712ff-da18-44c8-a63d-efc8746c0de5)
+![mono_freq](https://github.com/ISR-AIML/SeisAug/assets/163402495/614712ff-da18-44c8-a63d-efc8746c0de5)
 _Example of adding periodic noise at 30 Hz, change in frequency content of added noise can be observed in the corresponding spectrograms._
 
 [email]: isr3aiml@gmail.com
