@@ -10,5 +10,5 @@ setup(
     license="MIT",
     packages=find_packages(),
     keywords=['Seismology', 'Earthquakes', 'Deep Learning', 'Data Augmentation'],
-    install_requires=['obspy', 'matplotlib', 'scipy~=1.10.0', 'jupyter', 'ipywidgets']
+    install_requires=['obspy', 'matplotlib', 'scipy~=1.10.0', 'jupyter', 'ipywidgets', 'numpy']
 )
